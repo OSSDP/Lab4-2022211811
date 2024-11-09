@@ -8,7 +8,7 @@ public class Solution1Test {
         Solution1 solution = new Solution1();
 
         // 测试用例 1: 正常情况
-        assertEquals("5", solution.fractionToDecimal(5, 1));
+        assertEquals("50", solution.fractionToDecimal(5, 1));
 
         // 测试用例 2: 分母为1的情况
         assertEquals("2.25", solution.fractionToDecimal(9, 4));
