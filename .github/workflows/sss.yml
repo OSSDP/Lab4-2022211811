@@ -11,7 +11,7 @@ jobs:
         with:
           java-version: '17'
       - name: Cache Maven packages
-        uses: actions/cache@v2
+        uses: actions/cache@v3  # 更新为最新版本
         with:
           path: D:/Study/apache-maven-3.9.6/mvn_repo
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
